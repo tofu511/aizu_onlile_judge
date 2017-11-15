@@ -10,6 +10,8 @@ object BubbleSort {
  		}
 
 		bubbleSort(arr, size)
+
+		scanner.close()
 	}
 
 	def bubbleSort(a: Array[Int], n: Int): Unit = {
